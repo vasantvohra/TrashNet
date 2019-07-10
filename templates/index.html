@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Trash Classification</title>
+	<link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+</head>
+<div class=page>
+    <h1>TrashNet</h1>
+    <br>
+    <p>Enter your input image:</p>
+    <form  method = "POST" id="form"  action=""
+         enctype = "multipart/form-data">
+        <label>
+            <input type="file" accept="image/png, image/jpeg, image/gif" name="image"/>
+        </label>
+        
+	
+        <input type="submit" value="Submit">
+        
+	{% if error: %}
+        <p class=error><strong>Error:</strong> {{ error }} </p>
+        {% endif %}
+    </form>
+    
+
+    {% if answer is not none: %}
+    <p><label name='answer'>Classified: {{ answer }}</label><br /></p>
+    {% endif %}
+</div>
