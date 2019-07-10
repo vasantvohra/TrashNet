@@ -1,2 +1,2 @@
 # TrashNet
-Segregating waste Images by Developing CNN.
+Segregating waste Images by Deploying CNN.
