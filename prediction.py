@@ -2,26 +2,22 @@ import os
 import cv2
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
+from keras.preprocessing import image
 
-#import keras
-def predict(filename):
-    CATEGORIES=['cardboard','glass','metal','paper','plastic','trash']
- # so that our model classifies in these labels only
+def predict(img_path):
+     labels={0: 'cardboard', 1: 'glass', 2: 'metal', 3: 'paper', 4: 'plastic', 5: 'trash'}
+#img_path = 'C:\\Users\\vvohra\\Downloads\\dataset-original\\dataset-original\\metal\\'
 
-
-    def prepare(filepath): # we have to adjust our input image according to our training data set dimensions
-        IMG_SIZE = 150  # 50 in txt-based
-        img_array = cv2.imread(filepath, cv2.IMREAD_GRAYSCALE)
-        new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
-        return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1)
-
-    model = tf.keras.models.load_model("trashnet98.h5") # this is tensorflow serving importing an keras deep leaerning save module
-
-    prediction = model.predict([prepare(filename)]) # this is the image we want to classify
-
-    os.remove(filename)
-    d=float(prediction[0][0])
-    text= CATEGORIES[np.argmax(prediction[0])]
-    text= text+"\t"+ str(d)+'\n'+"Filename: \t"+str(filename)
-    print("Classification :\n",text)
-    return text
+     img = image.load_img(img_path, target_size=(300, 300))
+     img = image.img_to_array(img, dtype=np.uint8)
+     img=np.array(img)/255.0
+#plt.imshow(img.squeeze())
+     
+     model = tf.keras.models.load_model("trained_model.h5")
+     p=model.predict(img[np.newaxis, ...])
+     print(p.shape)
+     predicted_class = labels[np.argmax(p[0], axis=-1)]
+     os.remove(img_path)
+     print(predicted_class)
+     return(predicted_class)
