@@ -37,6 +37,7 @@ def application():
                 #cv2.imwrite(filename, image)
                 #print(filename)
                 result=predict(file.filename)
+                os.remove()
                 if result=="":
                     error="Sorry!"
                     

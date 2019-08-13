@@ -2,7 +2,6 @@ import os
 import cv2
 import tensorflow as tf
 import numpy as np
-import matplotlib.pyplot as plt
 from keras.preprocessing import image
 
 def predict(img_path):
