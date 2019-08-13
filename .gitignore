@@ -1,2 +1,8 @@
 
 *.pyc
+.ipynb
+.ipynb_checkpoints/.ipynb-checkpoint
+.ipynb_checkpoints/Trashnet CNN 40%-checkpoint.ipynb
+__pycache__/prediction.cpython-36.pyc
+__pycache__/prediction.cpython-36.pyc
+__pycache__/prediction.cpython-36.pyc
