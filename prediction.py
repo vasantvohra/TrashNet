@@ -15,11 +15,11 @@ def predict(img_path):
      
      model = tf.keras.models.load_model("trained_model.h5")
      p=model.predict(img[np.newaxis, ...])
-     
+     pro=np.max(p[0], axis=-1)
      print("p.shape:",p.shape)
-     print("prob",np.max(p[0], axis=-1))
+     print("prob",pro)
      predicted_class = labels[np.argmax(p[0], axis=-1)]
-     #os.remove(img_path)
+     os.remove(img_path)
      print("classified label:",predicted_class)
-     return(predicted_class)
+     return(str(predicted_class)+" \n Probability:"+str(pro))
 #print(predict(img_path = 'C:\\Users\\--\\Downloads\\dataset-original\\dataset-original\\metal\\metal1.jpg'))

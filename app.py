@@ -39,7 +39,7 @@ def application():
                 
                 # Deleting from path after uploading
                 result=predict(file.filename)
-                os.remove(filename)
+                #os.remove(filename)
                 if result=="":
                     error="Sorry!"
                     
