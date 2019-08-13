@@ -36,8 +36,10 @@ def application():
                 
                 #cv2.imwrite(filename, image)
                 #print(filename)
+                
+                # Deleting from path after uploading
                 result=predict(file.filename)
-                os.remove()
+                os.remove(filename)
                 if result=="":
                     error="Sorry!"
                     
