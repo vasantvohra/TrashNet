@@ -13,7 +13,7 @@ Already deployed version <br>
 
 Dataset: [Trashnet](https://github.com/garythung/trashnet)
 
-| Categories|         
+| Categories|        
 |---------| 
 |Cardboard|
 |Glass|
@@ -26,14 +26,16 @@ Dataset: [Trashnet](https://github.com/garythung/trashnet)
 #### First attempt: Building Tensorflow keras CNN Model
 [Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Notebooks/Trashnet%20CNN%2040%25.ipynb)
 
-- GrayScale images
+- Training on GrayScale images
 - Validation Accuracy 42%
 - Loss function : Sparse Categorical Loss function
+- Overfitting High
 
 ### Second attempt: 
 [Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Notebooks/Trashnet%20CNN%2080%25.ipynb)
 
-- Colored images
+- Avoided overfitting with Image Augmentation
+- Training on Colored images
 - Validation Accuracy 80%
 - Loss function : Categorical Loss function
 - Added 1 more 32 filters Convolution block with default stride
@@ -46,7 +48,9 @@ Understood
 >  - Callbacks : Early Stopping and Model Checkpoints to save perfect model on Hierarchical Data Format HDF5 (.h5)  
 >  - Visualizations by Matplotlib
 
-# Completion of Course on : [Intro To Tensorflow Udacity](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+# Completion of Course on : 
+Udacity [Intro To Tensorflow](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+<br>
 ![Completion](https://github.com/vasantvohra/TrashNet/blob/master/udacity.png)
 
 # Next Steps
