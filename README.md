@@ -34,7 +34,7 @@ Dataset: [Trashnet](https://github.com/garythung/trashnet)
 ### Second attempt: 
 [Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Notebooks/Trashnet%20CNN%2080%25.ipynb)
 
-- Avoided overfitting with Image Augmentation
+- Image Augmentation
 - Training on Colored images
 - Validation Accuracy 80%
 - Loss function : Categorical Loss function
