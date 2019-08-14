@@ -4,7 +4,7 @@
 
 **Waste Segregation** Project to classify waste into different classes.
 
-Already deployed version <a href="https://trashnet.herokuapps.com">
+Already deployed version <a href="https://trashnet.herokuapp.com">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
