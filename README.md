@@ -10,8 +10,9 @@ Already deployed version <a href="https://trashnet.herokuapps.com">
 
 
 Dataset: [Trashnet](https://github.com/garythung/trashnet)
-| Categories|           
-|------------|
+
+| Categories|         
+|---------| 
 |Cardboard|
 |Glass|
 |Paper|
@@ -21,17 +22,19 @@ Dataset: [Trashnet](https://github.com/garythung/trashnet)
 ### Just a Beginner!
           
 #### First attempt: Building Tensorflow keras CNN Model
-[Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Trashnet%20CNN%2040%25.ipynb)
+[Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Notebooks/Trashnet%20CNN%2040%25.ipynb)
 
 - GrayScale images
 - Validation Accuracy 42%
 - Loss function : Sparse Categorical Loss function
+
 ### Second attempt: 
-[Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Trashnet%20CNN%2080%25.ipynb)
+[Notebook](https://github.com/vasantvohra/TrashNet/blob/master/Notebooks/Trashnet%20CNN%2080%25.ipynb)
+
 - Colored images
 - Validation Accuracy 80%
 - Loss function : Categorical Loss function
--  Added 1 more 32 filters Convolution block with default stride
+- Added 1 more 32 filters Convolution block with default stride
 - 2 Dense layers with dropouts
 
 Understood
@@ -41,8 +44,8 @@ Understood
 >  - Callbacks : Early Stopping and Model Checkpoints to save perfect model on Hierarchical Data Format HDF5 (.h5)  
 >  - Visualizations by Matplotlib
 
-# Completion of Course on (Udacity)[]
-![enter image description here](.jpg)
+# Completion of Course on : [Intro To Tensorflow Udacity](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+![Completion](https://github.com/vasantvohra/TrashNet/blob/master/udacity.png)
 
 # Next Steps
 1. Further Regularization -
