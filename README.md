@@ -6,8 +6,8 @@
 
 Already deployed version <a href="https://trashnet.herokuapp.com">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-
+</a> <br>
+[Kaggle Kernel](https://www.kaggle.com/vasantvohra1/using-cnn-test-accuracy-77)
 
 Dataset: [Trashnet](https://github.com/garythung/trashnet)
 
