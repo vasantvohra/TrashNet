@@ -2,11 +2,13 @@
 
 
 
-**Waste Segregation** Project to classify waste into different classes.
+**Waste Segregation** Project to classify waste into different classes. <br>
 
-Already deployed version <a href="https://trashnet.herokuapp.com">
+Already deployed version <br>
+<a href="https://trashnet.herokuapp.com">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a> <br>
+
 [Kaggle Kernel](https://www.kaggle.com/vasantvohra1/using-cnn-test-accuracy-77)
 
 Dataset: [Trashnet](https://github.com/garythung/trashnet)
