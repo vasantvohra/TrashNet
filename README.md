@@ -1,13 +1,12 @@
 # Trash Net [![Build Status](https://travis-ci.org/vasantvohra/TrashNet.svg?branch=master)](https://travis-ci.org/vasantvohra/TrashNet/)  [![Udacity - Intro To Tensorflow](https://github.com/vasantvohra/TrashNet/blob/master/ud.svg)](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud18)
 
 **Waste Segregation** Project to classify waste into different classes. <br>
+
 [![Already deployed version](https://github.com/vasantvohra/TrashNet/blob/master/hr.svg)](https://trashnet.herokuapp.com)
 
 [DIRECT LINK](https://trashnet.herokuapp.com)
 
-
 [Kaggle Kernel](https://www.kaggle.com/vasantvohra1/using-cnn-test-accuracy-77)
-
 Dataset: [Trashnet](https://github.com/garythung/trashnet)
 
 | Categories|        
