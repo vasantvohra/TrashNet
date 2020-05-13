@@ -1,8 +1,8 @@
-# Trash Net [![Build Status](https://travis-ci.org/vasantvohra/TrashNet.svg?branch=master)](https://travis-ci.org/vasantvohra/TrashNet/)  [![Udacity - Intro To Tensorflow](https://github.com/vasantvohra/TrashNet/blob/master/ud.svg)](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+# Trash Net [![Build Status](https://travis-ci.org/vasantvohra/TrashNet.svg?branch=master)](https://travis-ci.org/vasantvohra/TrashNet/)  [![Udacity - Intro To Tensorflow](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/ud.svg)](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 
 **Waste Segregation** Project to classify waste into different classes. <br>
 
-[![Already deployed version](https://github.com/vasantvohra/TrashNet/blob/master/hr.svg)](https://trashnet.herokuapp.com)
+[![Already deployed version](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/hr.svg)](https://trashnet.herokuapp.com)
 
 [DIRECT LINK](https://trashnet.herokuapp.com)
 
@@ -47,7 +47,7 @@ Understood
 # Completion of Course on : 
 Udacity [Intro To Tensorflow](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 <br>
-![Completion](https://github.com/vasantvohra/TrashNet/blob/master/udacity.png)
+![Completion](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/udacity.png)
 
 # Next Steps
 1. Further Regularization -
