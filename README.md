@@ -1,4 +1,5 @@
-# Trash Net [![Build Status](https://travis-ci.org/vasantvohra/TrashNet.svg?branch=master)](https://travis-ci.org/vasantvohra/TrashNet/)  [![Udacity - Intro To Tensorflow](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/ud.svg)](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+# TrashNet [![Build Status](https://travis-ci.org/vasantvohra/TrashNet.svg?branch=master)](https://travis-ci.org/vasantvohra/TrashNet/)  [![Udacity - Intro To Tensorflow](https://raw.githubusercontent.com/vasantvohra/TrashNet/master/ud.svg)](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187) 
+[![Linkedin Article](https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg)](https://www.linkedin.com/pulse/waste-segregation-convolution-neural-network-vasant-vohra)
 
 **Waste Segregation** Project to classify waste into different classes. <br>
 
