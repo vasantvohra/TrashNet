@@ -1,6 +1,6 @@
 flask
 gunicorn
-tensorflow==2.5.0
+tensorflow==2.5.3
 keras==2.2.4
 numpy
 pillow
